@@ -13,7 +13,7 @@ jobs:
         with:
           node-version: "22"
       - run: npm install
-      - run: node test.js
+      - run: npm run test
 
   docker:
     needs: test
