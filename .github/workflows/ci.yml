@@ -34,5 +34,3 @@ jobs:
           context: .
           push: true
           tags: ${{ secrets.DOCKERHUB_USERNAME }}/docker-demo:latest
-          cache-from: type=gha
-          cache-to: type=gha,mode=max
